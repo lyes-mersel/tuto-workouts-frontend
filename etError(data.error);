@@ -1,0 +1,17 @@
+[33mcommit d9dd0da8ceab31b9f9f3a6688af6ace3e2dfa9c2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: lyes-mersel <dev.mersel@gmail.com>
+Date:   Mon Nov 13 21:55:02 2023 +0100
+
+    create the <add new workout> form
+
+[33mcommit 28c2b3ea3cc48944dd5418aeef06ea0323d577e8[m
+Author: lyes-mersel <dev.mersel@gmail.com>
+Date:   Mon Nov 13 01:19:36 2023 +0100
+
+    Backend (all done) + Frontend (Home page)
+
+[33mcommit 5383fa0baeb9ddaeca9794956e2bfc8d152bac33[m
+Author: lyes-mersel <dev.mersel@gmail.com>
+Date:   Sun Nov 12 23:06:31 2023 +0100
+
+    Initialize project using Create React App
