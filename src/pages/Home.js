@@ -17,7 +17,7 @@ const Home = () => {
 			}
 		};
 		fechWorkouts();
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<div className="home">
