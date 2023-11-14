@@ -20,6 +20,8 @@ const WorkoutForm = () => {
 				"content-type": "application/json",
 			},
 		});
+		const json = await response.json();
+		
 		if (response.ok) {
 			setTitle("");
 			setLoad("");
@@ -27,9 +29,7 @@ const WorkoutForm = () => {
 			setError(null);
 			dispatch({ type: "CREATE_WORKOUT", payload: workout });
 		} else {
-			response.json().then((data) => {
-				setError(data.error);
-			});
+			setError(json.error);
 		}
 	};
 
