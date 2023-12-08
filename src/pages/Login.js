@@ -1,15 +1,14 @@
 import { useState } from "react";
-import { useSignup } from "../hooks/useSignup";
+import { useLogin } from "../hooks/useLogin";
 
 function Login() {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
-	const { signup, isLoading, error } = useSignup();
+	const { login, isLoading, error } = useLogin();
 
 	async function handleSubmit(e) {
 		e.preventDefault();
-
-		await signup(email, password);
+		await login(email, password);
 	}
 
 	return (
