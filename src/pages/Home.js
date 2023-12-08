@@ -13,7 +13,7 @@ const Home = () => {
 
 	useEffect(() => {
 		const fechWorkouts = async () => {
-			const response = await fetch("/api/workouts", {
+			const response = await fetch("https://tuto-workouts-api.vercel.app/api/workouts", {
 				headers: {
 					Authorization: `Bearer ${user.token}`,
 				},
