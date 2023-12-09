@@ -7,11 +7,11 @@
   <h3 align="center">WORKOUT</h3>
 
   <p align="center">
-    <br /><br />
     <a href="https://tuto-workout.vercel.app">View Demo</a>
     .
     <a href="https://github.com/lyes-mersel/tuto-workouts-backend">API Repo</a>
   </p>
+  <br />
 </div>
 
 
@@ -22,14 +22,14 @@ This is a small web app I build to practice MERN Stack. My main purse was to imp
 ![](./images/screenshot.png)
 
 
-### Built With
+## Built With
 
 -  HTML/CSS
 -  JavaScript
 -  React JS
 
 
-### Installation
+## Installation
 
 1. Clone the repo
    ```sh
@@ -45,7 +45,7 @@ This is a small web app I build to practice MERN Stack. My main purse was to imp
     ```
 
 
-# Author
+## Author
 - Website - [Portfolio](https://lyes-mersel.netlify.app)
 - Github - [@lyes-mersel](https://github.com/lyes-mersel)
 - LinkedIn - [@lyes-mersel](https://www.linkedin.com/in/lyes-mersel/)
