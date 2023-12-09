@@ -10,7 +10,7 @@ export const useSignup = () => {
 		setIsLoading(true);
 		setError(null);
 
-		const response = await fetch("https://tuto-workouts-api.vercel.app/api/user/signup", {
+		const response = await fetch("https://tuto-workout-api.onrender.com/api/user/signup", {
 			method: "POST",
 			headers: {
 				"content-type": "application/json",

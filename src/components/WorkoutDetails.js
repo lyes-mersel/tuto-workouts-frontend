@@ -11,7 +11,7 @@ const WorkoutDetails = ({ workout }) => {
 			return;
 		}
 
-		const response = await fetch("https://tuto-workouts-api.vercel.app/api/workouts/" + workout._id, {
+		const response = await fetch("https://tuto-workout-api.onrender.com/api/workouts/" + workout._id, {
 			method: "DELETE",
 			headers: {
 				Authorization: `Bearer ${user.token}`,
